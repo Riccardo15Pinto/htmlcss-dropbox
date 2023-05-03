@@ -12,6 +12,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+header{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+main{
+    margin-top: 80px;
+}
+
 nav{
     justify-content: space-between;
     align-items: center;
@@ -53,16 +65,35 @@ nav:last-child{
 
 /* main */
 
+/* jumbotron */
+
 .jumbotron{
     background-color: #B4D0E7;
 }
 
-.jumbo-right{
-    flex-direction: column;
+.jumbo-right > *{
+    font-size: 20px;
+    padding-bottom: 70px;
 }
 
+.jumbo-right a {
+    text-decoration: none;
+}
 
+.jumbo-right p {
+    line-height: 30px;
+}
 
+.black {
+    color: black;
+}
+
+.jumbo-left{
+    position: relative;
+}
+
+.jumbo-image{
+}
 /* utility */
 
 .f-basis-s{

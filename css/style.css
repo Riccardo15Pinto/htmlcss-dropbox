@@ -168,7 +168,7 @@ nav:last-child{
 }
 
 .col-info{
-    margin: 40px 15px;
+    margin: 40px 27px;
 }
 
 .price{
@@ -200,8 +200,10 @@ nav:last-child{
     margin-top: 25px;
 }
 
-.col-info .blu-button{
+.col .blu-button{
     text-decoration: none;
+    display: block;
+    text-align: center;
 }
 
 .hot-point li{
@@ -218,10 +220,54 @@ nav:last-child{
 .icon{
     padding-right: 10px;
 }
+
+.bottom-col{
+    margin: 30px 20px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.bottom-element p{
+    margin-top: 40px;
+}
+
+.bottom-element .price{
+    margin-top: 20px;
+}
+
+.Db-partner{
+    margin-top: 150px;
+}
+
+.Db-partner-right > *{
+    margin: 50px 40px;
+}
+
+.Db-partner-right p{
+    font-size: 20px;
+}
+
+.Db-partner-right a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+
 /* utility */
 
 .f-basis-xs{
     flex-basis: 30%;
+}
+
+.f-basis-s{
+    flex-basis: 40%;
+}
+
+.f-basis-m{
+    flex-basis: 60%;
 }
 
 .f-basis-l{

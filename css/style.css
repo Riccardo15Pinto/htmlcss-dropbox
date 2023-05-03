@@ -40,6 +40,10 @@ h2{
     font-size: 40px;
 }
 
+h3{
+    font-size: 25px;
+}
+
 /* header */
 
 .logo-dropbox{
@@ -154,7 +158,23 @@ nav:last-child{
     margin: 10px;
 }
 
+.col{
+    flex-basis: 100%;
+}
 
+.top-col{
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.col-info{
+    margin: 40px 15px;
+}
+
+.price{
+    font-weight: bold;
+}
 /* utility */
 
 .f-basis-xs{

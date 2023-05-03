@@ -36,6 +36,10 @@ h1{
     padding: 70px 0;
 }
 
+h2{
+    font-size: 40px;
+}
+
 /* header */
 
 .logo-dropbox{
@@ -73,7 +77,7 @@ nav:last-child{
 
 .jumbotron{
     background-color: #B4D0E7;
-    margin-bottom: 120px;
+    margin-bottom: 130px;
 }
 
 .jumbo-right > *{
@@ -113,6 +117,15 @@ nav:last-child{
 
 /*your plane */
 
+.chose-container{
+    margin: 50px 0;
+}
+
+.chose-element{
+    margin-right: 40px;
+    align-items: flex-end;
+}
+
 .chose{
     border-radius: 50%;
     width: 20px;
@@ -127,9 +140,24 @@ nav:last-child{
     border: 2px solid lightgrey;
 }
     
+.row{
+    margin: 0 -10px;
+    height: 600px;
+}
+
+.row > *{
+    border: 1px solid black;
+}
+
+.column{
+    flex-basis: calc(100% / 3 );
+    margin: 10px;
+}
+
+
 /* utility */
 
-.f-basis-s{
+.f-basis-xs{
     flex-basis: 30%;
 }
 

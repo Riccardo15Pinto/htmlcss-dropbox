@@ -89,14 +89,13 @@ nav:last-child{
 
 .jumbo-right i {
     font-size: 50px;
+    padding-bottom: 10px;
 }
 
 .jumbo-right a, .jumbo-right i {
     margin-top: 45px;
     display: inline-block;
 }
-
-
 
 .black {
     color: black;
@@ -110,6 +109,10 @@ nav:last-child{
     position: absolute;
     top: 0;
 }
+
+/*your plane */
+
+
 /* utility */
 
 .f-basis-s{

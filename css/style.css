@@ -203,6 +203,21 @@ nav:last-child{
 .col-info .blu-button{
     text-decoration: none;
 }
+
+.hot-point li{
+    list-style: none;
+}
+
+.hot-point li::before{
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin: 0px 6px 0px -20px;
+    color: blue;;
+}
+
+.icon{
+    padding-right: 10px;
+}
 /* utility */
 
 .f-basis-xs{

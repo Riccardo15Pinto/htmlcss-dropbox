@@ -6,6 +6,39 @@
     box-sizing: border-box;
 }
 
+/* generics */
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* header */
+
+.logo-header{
+    display: block;
+    max-width: 100%;
+}
+
+.nav-bar-left-element{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* utility */
 
 .d-flex{

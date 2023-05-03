@@ -146,7 +146,6 @@ nav:last-child{
     
 .row{
     margin: 0 -10px;
-    height: 600px;
 }
 
 .row > *{
@@ -174,6 +173,35 @@ nav:last-child{
 
 .price{
     font-weight: bold;
+}
+
+.line{
+    width: 40px;
+    border: 1px solid lightgray;
+}
+
+.hot-point{
+    padding: 0 18px;
+}
+
+.col-info > *{
+    margin: 50px 0;
+}
+
+.info{
+    line-height: 50px;
+}
+
+.info-skill{
+    align-items: baseline;
+}
+
+.box-skill > *{
+    margin-top: 25px;
+}
+
+.col-info .blu-button{
+    text-decoration: none;
 }
 /* utility */
 

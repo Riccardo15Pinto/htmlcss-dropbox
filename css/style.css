@@ -113,7 +113,20 @@ nav:last-child{
 
 /*your plane */
 
+.chose{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
 
+.check{
+    border: 5px solid blue;
+}
+
+.not-check{
+    border: 2px solid lightgrey;
+}
+    
 /* utility */
 
 .f-basis-s{

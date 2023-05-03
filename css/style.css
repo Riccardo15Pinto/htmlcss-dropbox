@@ -17,7 +17,11 @@ nav{
     align-items: center;
 }
 
-
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    padding: 70px 0;
+}
 
 /* header */
 
@@ -49,12 +53,25 @@ nav:last-child{
 
 /* main */
 
+.jumbotron{
+    background-color: #B4D0E7;
+}
 
-
+.jumbo-right{
+    flex-direction: column;
+}
 
 
 
 /* utility */
+
+.f-basis-s{
+    flex-basis: 30%;
+}
+
+.f-basis-l{
+    flex-basis: 70%;
+}
 
 .image{
     display: block;
@@ -62,12 +79,12 @@ nav:last-child{
 }
 
 .container-big{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .container-small{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 

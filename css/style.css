@@ -21,10 +21,6 @@ nav{
 
 /* header */
 
-.logo-header{
-    display: block;
-    max-width: 100%;
-}
 
 .nav-bar-left-element{
     align-items: center;
@@ -59,6 +55,11 @@ nav:last-child{
 
 
 /* utility */
+
+.image{
+    display: block;
+    max-width: 100%;
+}
 
 .container-big{
     width: 1400px;

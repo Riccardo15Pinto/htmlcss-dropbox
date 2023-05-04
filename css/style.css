@@ -351,11 +351,25 @@ nav:last-child{
 }
 
 .client-content-center{
-    padding: 40px;
+    padding: 50px;
 }
 
 .client-content-center .image{
     width: 270px;
+}
+
+.client-content-center > *{
+    padding-bottom: 40px;
+}
+
+.client-content-center .line{
+    padding: 0;
+    width: 120px;
+}
+
+.client-content-center p {
+    margin-top: 30px;
+    line-height: 22px;
 }
 
 /* utility */

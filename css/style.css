@@ -292,6 +292,22 @@ nav:last-child{
     display: block;
     color: blue;
 }
+
+.client-container{
+    margin: 120px 0;
+    border: 2px solid black;
+    height: 600px;
+}
+
+.client-column{
+    border: 2px solid gray;
+    flex-basis:calc(100% / 3);
+}
+
+.client-content{
+    border: 1px solid red;
+    flex-basis: calc(100% / 2);
+}
 /* utility */
 
 .wrap{

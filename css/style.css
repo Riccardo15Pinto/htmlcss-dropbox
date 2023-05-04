@@ -264,7 +264,7 @@ nav:last-child{
 }
 
 .multi-operation{
-    margin-top: 150px;
+    margin: 150px 0;
 }
 
 .card{
@@ -281,7 +281,17 @@ nav:last-child{
     line-height: 20px;
 }
 
+/* our-client */
 
+.our-client h2{
+    padding-right:  300px;
+}
+
+.our-client a {
+    margin-top: 40px;
+    display: block;
+    color: blue;
+}
 /* utility */
 
 .wrap{

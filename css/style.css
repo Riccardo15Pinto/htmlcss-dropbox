@@ -283,18 +283,23 @@ nav:last-child{
 
 /* our-client */
 
-.our-client h2{
+.Top-our-client h2{
     padding-right:  300px;
 }
 
 .our-client a {
-    margin-top: 40px;
+    font-size: 18px;
+    margin-top: 70px;
     display: block;
     color: blue;
 }
 
+.our-client{
+    margin: 150px 0;
+}
+
 .client-container{
-    margin: 120px 0;
+    margin-top: 150px;
 }
 
 .client-column{
@@ -371,6 +376,30 @@ nav:last-child{
     margin-top: 30px;
     line-height: 22px;
 }
+
+.bg-take-dropbox{
+    background-color: #B4D0E7;
+}
+
+.take-Dropbox{
+    justify-content: space-between;
+    padding: 100px 20px;
+}
+
+.take-Dropbox a{
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.take-Dropbox h2{
+    color: #61082B;
+    font-size: 43px;
+}
+
+
 
 /* utility */
 

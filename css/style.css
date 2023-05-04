@@ -148,11 +148,8 @@ nav:last-child{
     margin: 0 -10px;
 }
 
-.row > *{
-    border: 1px solid black;
-}
-
 .column{
+    border: 1px solid black;
     flex-basis: calc(100% / 3 );
     margin: 10px;
 }
@@ -261,11 +258,34 @@ nav:last-child{
 
 /* multi-operation */
 
+.row2{
+    margin: 0 -18px;
+}
+
 .multi-operation{
     margin-top: 150px;
 }
 
+.card{
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+}
+
+.card-text{
+    margin-top: 30px;
+}
+
+.card-text p {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+
 /* utility */
+
+.wrap{
+    flex-wrap: wrap;
+}
 
 .f-basis-xs{
     flex-basis: 30%;

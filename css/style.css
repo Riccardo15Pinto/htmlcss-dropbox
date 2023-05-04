@@ -295,19 +295,25 @@ nav:last-child{
 
 .client-container{
     margin: 120px 0;
-    border: 2px solid black;
-    height: 600px;
 }
 
 .client-column{
-    border: 2px solid gray;
     flex-basis:calc(100% / 3);
 }
 
-.client-content{
-    border: 1px solid red;
-    flex-basis: calc(100% / 2);
+.client-content {    
+    flex-basis: 50%;
+    height: 300px;
+    justify-content: center;
+    background-color: #0061FF;
+    align-items: center;
+    padding: 60px;
 }
+
+.client-content .image{
+    filter: invert(1);
+}
+
 /* utility */
 
 .wrap{

@@ -399,7 +399,30 @@ nav:last-child{
     font-size: 43px;
 }
 
+/* faq-question */
 
+.FAQ-question{
+    margin-bottom: 150px;
+}
+
+.Faq-element{
+   justify-content: space-between; 
+}
+
+.buttom-line{
+    border-bottom: 1px solid black;
+}
+
+.Faq-title{
+padding-bottom: 40px;
+}
+
+.Faq-element{
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+/* footer */
 
 /* utility */
 

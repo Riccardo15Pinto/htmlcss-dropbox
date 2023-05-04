@@ -259,6 +259,12 @@ nav:last-child{
     padding: 10px 0;
 }
 
+/* multi-operation */
+
+.multi-operation{
+    margin-top: 150px;
+}
+
 /* utility */
 
 .f-basis-xs{

@@ -377,8 +377,6 @@ li{
     font-size: 43px;
 }
 
-
-
 /* faq-question */
 
 .Faq-element{
@@ -398,6 +396,22 @@ li{
     font-weight: bold;
 }
 
+.Faq-element p {
+    margin-top: 40px;
+    font-weight: lighter;
+}
+
+.hover{
+    display: none;
+}
+
+.Faq-element:hover .hover{
+    display: inline-block;
+}
+
+.Faq-element:hover .hidden{
+    display: none;
+}
 /* footer */
 
 .footer-nav{

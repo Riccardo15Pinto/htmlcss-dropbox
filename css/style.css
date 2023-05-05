@@ -126,15 +126,11 @@ li{
 .row{
     margin: 0 -10px;
 }
-
+    
 .column{
     border: 1px solid lightgrey;
-    flex-basis: calc(100% / 3 );
+    flex-basis: calc(100% / 3);
     margin: 10px;
-}
-
-.col{
-    flex-basis: 100%;
 }
 
 .top-col{
@@ -161,29 +157,22 @@ li{
 }
 
 .col-info > *{
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .info{
     line-height: 50px;
 }
 
-.info-skill{
-    align-items: baseline;
-}
-
-.box-skill > *{
-    margin-top: 25px;
-}
-
-.col .blu-button{
-    text-decoration: none;
+.column .blu-button{
     display: block;
     text-align: center;
     padding: 0;
 }
 
-
+.column li {
+    margin-top: 20px;
+}
 
 .hot-point li::before{
     font-family: 'FontAwesome';
@@ -192,8 +181,12 @@ li{
     color: blue;
 }
 
-.icon{
-    padding-right: 10px;
+.skill-content li{
+    text-indent: -10px;
+}
+
+.skill{
+    padding: 20px;
 }
 
 .bottom-col{

@@ -23,7 +23,7 @@ header{
 }
 
 section{
-    margin-top: 80px;
+    margin: 100px 0;
 }
 
 footer{
@@ -34,7 +34,7 @@ footer{
 h1{
     font-size: 80px;
     font-weight: 800;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 h2{
@@ -59,59 +59,42 @@ li{
 .nav-header{
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 .nav-bar-left-element{
     align-items: center;
 }
 
-.pad > * {
-    padding: 20px 10px;
+.nav-header li {
+    padding: 40px 10px;
+    border-bottom: 3px solid transparent;
 }
 
-
+.nav-header li:hover{
+    border-bottom: 3px solid black;
+}
 
 /* main */
 
 /* jumbotron */
 
-
-
-
-
 .jumbotron{
     background-color: #B4D0E7;
-    margin-bottom: 130px;
+}
+
+.jumbo-container{
+    position: relative;
+    top: 65px;
 }
 
 .jumbo-right > *{
     font-size: 17px;
+    margin-bottom: 50px;
 }
-
-
 
 .jumbo-right p {
     line-height: 25px;
-}
-
-.jumbo-right i {
-    font-size: 50px;
-    padding-bottom: 10px;
-}
-
-.jumbo-right a, .jumbo-right i {
-    margin-top: 45px;
-    display: inline-block;
-}
-
-
-.jumbo-left{
-    position: relative;
-}
-
-.jumbo-image{
-    position: absolute;
-    top: 0;
 }
 
 /*your plane */
@@ -139,7 +122,7 @@ li{
 .not-check{
     border: 2px solid lightgrey;
 }
-    
+
 .row{
     margin: 0 -10px;
 }
@@ -253,17 +236,15 @@ li{
 /* multi-operation */
 
 .row2{
-    margin:50px -18px;
-}
-
-.multi-operation{
-    margin: 150px 0;
+    margin:50px -20px;
 }
 
 .card{
-    flex-basis: calc(100% / 3);
-    padding: 20px;
+    flex-basis: calc(100% / 3 - 40px);
+    margin: 20px;
 }
+
+
 
 .card-text{
     margin-top: 30px;
@@ -392,11 +373,9 @@ li{
     font-size: 43px;
 }
 
-/* faq-question */
 
-.FAQ-question{
-    margin-bottom: 150px;
-}
+
+/* faq-question */
 
 .Faq-element{
    justify-content: space-between; 
@@ -407,7 +386,7 @@ li{
 }
 
 .Faq-title{
-padding-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .Faq-element{

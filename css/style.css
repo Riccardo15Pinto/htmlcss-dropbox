@@ -261,11 +261,6 @@ li{
     font-size: 18px;
     margin-top: 70px;
     display: block;
-    color: blue;
-}
-
-.our-client{
-    margin: 150px 0;
 }
 
 .client-container{
@@ -273,20 +268,25 @@ li{
 }
 
 .client-column{
-    flex-basis:calc(100% / 3);
-    align-content: flex-start;
+    width: calc(100vw / 3);
+    height: calc(200vh / 3);
 }
 
 .client-content {  
     flex-basis: 50%;
-    height: 300px;
+    height: 50%;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    border: 10px solid transparent;
+}
+
+.client-content:hover{
+    border: 10px solid currentColor;
 }
 
 .client-content .image{
     filter: invert(1);
+    width: 50%;
 }
 
 .center{
@@ -294,34 +294,42 @@ li{
 }
 
 .design{
+    color: #b7f5ae;
     background-color: #A2D39B;
 }
 
 .arizona{
+    color: #ce3572;
     background-color: #61082B;
 }
 
 .florida{
+    color: #64d3ff;
     background-color: #0093CE;
 }
 
 .topps{
+    color: #f85e5e;
     background-color: #FF1C1C;
 }
 
 .bicycle{
+    color: #e03761;
     background-color: #D5001F;
 }
 
 .hearst{
+    color: #81c5fc;
     background-color: #B4D0E7;
 }
 
 .planet{
+    color: #4462db;
     background-color: #0D2481;
 }
 
 .channel{
+    color: #e9d478;
     background-color: #FFD830;
 }
 

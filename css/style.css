@@ -189,6 +189,11 @@ li{
     padding: 20px;
 }
 
+.buy-now a {
+    color: #4230F1;
+    text-decoration: underline;
+}
+
 .bottom-col{
     margin: 30px 20px;
     align-items: baseline;
@@ -228,7 +233,7 @@ li{
 
 /* multi-operation */
 
-.row2{
+.row-card{
     margin:50px -20px;
 }
 
@@ -236,8 +241,6 @@ li{
     flex-basis: calc(100% / 3 - 40px);
     margin: 20px;
 }
-
-
 
 .card-text{
     margin-top: 30px;

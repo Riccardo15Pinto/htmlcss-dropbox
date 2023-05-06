@@ -275,11 +275,11 @@ li{
     height: 50%;
     justify-content: center;
     align-items: center;
-    border: 10px solid transparent;
+    border: 40px solid transparent;
 }
 
 .client-content:hover{
-    border: 10px solid currentColor;
+    border: 40px solid currentColor;
 }
 
 .client-content .image{

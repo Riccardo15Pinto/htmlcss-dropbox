@@ -401,6 +401,7 @@ li{
 
 .hover{
     display: none;
+    color: gray;
 }
 
 .Faq-element:hover .hover{

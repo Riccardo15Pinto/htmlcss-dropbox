@@ -13,8 +13,9 @@ main{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 42px;
     padding-bottom: 20px;
+    font-weight: lighter;
 }
 
 h3{
@@ -28,6 +29,32 @@ h5{
 /* main */
 
 /* package */
+
+.icon-section{
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.icon-box{
+    position: relative;
+}
+
+.icon-info{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    padding: 6px;
+    text-align: left;
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    left: -62px;
+}
+ 
+.icon-box:hover .icon-info{
+    display: inline-block;
+}
 
 #package{
     margin-top: 100px;
@@ -49,11 +76,11 @@ h5{
 }
 
 .internal-space{
-    min-height: 500px;
     margin:50px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 480px;
 }
 
 .pack{
@@ -122,11 +149,11 @@ h5{
 }
 
 .container-small{
-    width: 1400px;
+    width: 1350px;
     margin: 0 auto;
 }
 
 .container-xsmall{
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
 }

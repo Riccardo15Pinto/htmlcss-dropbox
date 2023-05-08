@@ -8,12 +8,42 @@
 
 /* generics */
 
+main{
+    background-color: #F7F5F2;
+}
 
 
 /* main */
 
+#package{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
 
-/* footer */
-.footer-nav{
-    margin: 100px 0;
+.internal-space{
+    padding: 10px;
+}
+
+.pack{
+    flex-basis: calc(100% / 3 - 20px);
+    background-color: white;
+    margin: 10px;   
+}
+
+
+
+
+/* utility */
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.container-small{
+    width: 1400px;
+    margin: 0 auto;
 }

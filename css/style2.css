@@ -12,8 +12,18 @@ main{
     background-color: #F7F5F2;
 }
 
+h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
 h3{
     font-weight: lighter;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 100;
 }
 /* main */
 
@@ -22,6 +32,10 @@ h3{
 #package{
     margin-top: 100px;
     margin-bottom: 0;
+}
+
+.container-xsmall{
+    text-align: center;
 }
 
 .best-price{
@@ -109,5 +123,10 @@ h3{
 
 .container-small{
     width: 1400px;
+    margin: 0 auto;
+}
+
+.container-xsmall{
+    width: 900px;
     margin: 0 auto;
 }

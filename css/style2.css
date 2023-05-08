@@ -78,25 +78,6 @@ h5{
     margin-bottom: 10px;
 }
 
-.button-package{
-    background-color: white;
-    border: 2px solid black;
-    display: inline-block;
-    padding: 3px 3px;
-    border-radius: 30px;
-}
-
-.button-set{
-    background-color: #0061FF;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 7px 10px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
 .discount{
     background-color: #2D7A02;
     color: white;
@@ -107,8 +88,34 @@ h5{
     margin: 4px;
 }
 
+.subscription{
+    justify-content: center;
+}
 
+.button-package{
+    justify-content: space-between;
+    width: 200px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px 3px;
+    border-radius: 30px;
+}
 
+.button-set{
+    background-color: #0061FF;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 10px;
+    color: white;
+}
+
+.out{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 10px;
+}
 
 .best-price{
     position: absolute;

@@ -43,16 +43,25 @@ h5{
     background-color: black;
     color: white;
     display: inline-block;
+    line-height: 17px;
+    font-size: 12px;
     width: 200px;
-    padding: 6px;
+    padding: 8px;
     text-align: left;
-    display: none;
     position: absolute;
     bottom: 70px;
     left: -62px;
+    display: none;
+}
+
+.bottom-info{
+    position: absolute;
+    bottom: -10px;
+    left: 90px;
+    color: black;
 }
  
-.icon-box:hover .icon-info{
+.icon-box:hover .icon-info,.bottom-info{
     display: inline-block;
 }
 
@@ -92,6 +101,10 @@ h5{
 
 .info-pack > *{
     margin-bottom: 20px;
+}
+
+.price {
+    font-size: 22px;
 }
 
 .info .blu-button{

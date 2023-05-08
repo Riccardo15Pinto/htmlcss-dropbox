@@ -30,6 +30,15 @@ h5{
 
 /* package */
 
+#package{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.container-xsmall{
+    text-align: center;
+}
+
 .icon-section{
     margin: 30px 0;
     justify-content: center;
@@ -65,14 +74,41 @@ h5{
     display: inline-block;
 }
 
-#package{
-    margin-top: 100px;
-    margin-bottom: 0;
+.button-section{
+    margin-bottom: 10px;
 }
 
-.container-xsmall{
-    text-align: center;
+.button-package{
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px 3px;
+    border-radius: 30px;
 }
+
+.button-set{
+    background-color: #0061FF;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.discount{
+    background-color: #2D7A02;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 3px 3px;
+    margin: 4px;
+}
+
+
+
 
 .best-price{
     position: absolute;
@@ -117,7 +153,6 @@ h5{
     margin-top: 30px;
 }
 
-
 .hot-point li {
     margin-top: 20px;
 }
@@ -147,9 +182,6 @@ h5{
 .buy-now a:hover span{
     margin-left: 10px;
 }
-
-
-
 
 /* utility */
 

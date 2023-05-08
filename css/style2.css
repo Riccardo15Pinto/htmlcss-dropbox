@@ -20,8 +20,15 @@ main{
     margin-bottom: 0;
 }
 
+.best-price{
+    justify-content: center;
+    padding: 7px 0;
+    background-color: black;
+    color: white;
+}
+
 .internal-space{
-    padding: 10px;
+    padding: 30px 20px;
 }
 
 .pack{
@@ -29,6 +36,21 @@ main{
     background-color: white;
     margin: 10px;   
 }
+
+.info-pack > *{
+    margin-bottom: 20px;
+}
+
+.info .blu-button{
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    margin: 30px 0;
+}
+
 
 
 
